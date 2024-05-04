@@ -3,7 +3,7 @@ body{
 }
 header{
     background-color: rgb(255, 118, 118);
-border: black solid 20px;}
+border: rgb(255, 0, 0) solid 20px;}
 #imagendes{
     display: flex;
     
@@ -14,7 +14,8 @@ border: black solid 20px;}
     flex-direction: column;
     gap: 10px;
 }
-main{ background-color: rgb(254, 254, 254);}
+main{ background-color: rgb(254, 254, 254);
+border: red solid 10px;}
 #servicios{
     display: flex;
     flex-direction: column;
@@ -24,7 +25,24 @@ main{ background-color: rgb(254, 254, 254);}
 #flota{
     display: flex;
     align-items: center;
-    font-size: 30px;
     flex-direction: column;
     text-align: center;
+    gap: 10px;
+}
+#ace{
+    text-align: left;
+    border: rgb(0, 0, 0) solid 2px;
+    background-color: rgb(255, 118, 118);
+}
+#tes{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    border: rgb(0, 0, 0) solid 2px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    border: rgb(255, 0, 0) solid 2px;
+    background-color:  salmon;
 }
