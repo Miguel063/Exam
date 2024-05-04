@@ -3,7 +3,28 @@ body{
 }
 header{
     background-color: rgb(255, 118, 118);
-}
-menu{
+border: black solid 20px;}
+#imagendes{
+    display: flex;
     
+}
+#men{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+main{ background-color: rgb(254, 254, 254);}
+#servicios{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+   align-items: center;
+}
+#flota{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    flex-direction: column;
+    text-align: center;
 }
